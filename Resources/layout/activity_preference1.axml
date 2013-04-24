@@ -7,7 +7,7 @@
         android:id="@+id/showPreferenceFragmentButton"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="OnCreateView Fragment" />
+        android:text="Preference Fragment" />
     <FrameLayout
         android:minWidth="25px"
         android:minHeight="25px"

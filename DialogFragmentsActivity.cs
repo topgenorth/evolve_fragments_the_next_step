@@ -10,7 +10,6 @@ namespace PlayingWithFragments
         private OnCreateViewDialogFragment _onCreateViewFragment;
         private Button _showOnCreateDialogFragmentButton;
         private Button _showOnCreateViewDialogFragmentButton;
-        private Button _showPreferenceFragmentButton;
 
         public void UpdateValue(string name, string value)
         {
@@ -23,8 +22,6 @@ namespace PlayingWithFragments
             SetContentView(Resource.Layout.activity_dialogfragments);
             _showOnCreateDialogFragmentButton = FindViewById<Button>(Resource.Id.showOnCreateDialogFragment);
             _showOnCreateViewDialogFragmentButton = FindViewById<Button>(Resource.Id.showOnCreateViewDialogFragment);
-            _showPreferenceFragmentButton = FindViewById<Button>(Resource.Id.showPreferenceFragment);
-
 
             #region OnCreateDialog
             _showOnCreateDialogFragmentButton.Click += (sender, args) =>{
@@ -43,13 +40,6 @@ namespace PlayingWithFragments
             };
             #endregion
 
-
-            #region PreferenceFragment
-            _showPreferenceFragmentButton.Click += (sender, args) =>{
-                // TODO
-                Toast.MakeText(this, "TODO", ToastLength.Long).Show();
-            };
-            #endregion 
         }
     }
 }

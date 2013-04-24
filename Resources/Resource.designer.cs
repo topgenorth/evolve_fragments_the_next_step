@@ -60,32 +60,29 @@ namespace PlayingWithFragments
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f060006
+			public const int dialogTitle = 2131099654;
+			
 			// aapt resource value: 0x7f060007
-			public const int dialogTitle = 2131099655;
+			public const int dialogValue = 2131099655;
 			
-			// aapt resource value: 0x7f060008
-			public const int dialogValue = 2131099656;
+			// aapt resource value: 0x7f060002
+			public const int frameLayout1 = 2131099650;
 			
-			// aapt resource value: 0x7f060003
-			public const int frameLayout1 = 2131099651;
-			
-			// aapt resource value: 0x7f060005
-			public const int prefencelayout1 = 2131099653;
+			// aapt resource value: 0x7f060004
+			public const int prefencelayout1 = 2131099652;
 			
 			// aapt resource value: 0x7f060000
 			public const int showOnCreateDialogFragment = 2131099648;
 			
-			// aapt resource value: 0x7f060002
-			public const int showOnCreateViewDialogFragment = 2131099650;
-			
 			// aapt resource value: 0x7f060001
-			public const int showPreferenceFragment = 2131099649;
+			public const int showOnCreateViewDialogFragment = 2131099649;
 			
-			// aapt resource value: 0x7f060004
-			public const int showPreferenceFragmentButton = 2131099652;
+			// aapt resource value: 0x7f060003
+			public const int showPreferenceFragmentButton = 2131099651;
 			
-			// aapt resource value: 0x7f060006
-			public const int startThread = 2131099654;
+			// aapt resource value: 0x7f060005
+			public const int startThread = 2131099653;
 			
 			static Id()
 			{
